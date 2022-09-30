@@ -1,0 +1,43 @@
+html {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    margin-top: 0px;
+    color: blue;
+    text-shadow: 6px 6px 1px black;
+}
+
+h2 {
+    font-size: 50px;
+    color: blue;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 400px;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
